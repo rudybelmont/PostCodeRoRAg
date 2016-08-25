@@ -1,0 +1,27 @@
+<div class="ui-widget SearchNav">
+  <label>Search By</label>
+  <input type=text Id="postCodeBox" placeholder="Post Code">
+  <input type="button" Id="postCodeBtn" ng-click=searchByPostCode() value="Search" class="btn-primary">
+</div>
+
+<div className="map-section">
+  <!--<div className="map-button-section">
+          <Button id="stop-show-all-btn" className={stopBtnClassName} bsStyle="danger" onClick={this._onStopClicked}>
+            <Glyphicon glyph="stop" />&nbsp;&nbsp;Stop Show All
+          </Button>
+          <Dropdown id="action-btn" pullRight className="action-btn">
+            <Dropdown.Toggle>
+              <Glyphicon glyph="list" />
+              &nbsp;&nbsp;Actions
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <MenuItem key="1" onSelect={this._onShowAllSelected}>Show all boundaries on the current view</MenuItem>
+              <MenuItem key="2" onSelect={this._onClearSelected}>Clear all boundaries on map</MenuItem>
+            </Dropdown.Menu>
+          </Dropdown>          
+        </div>-->
+  <div class="map-holder">
+    <p>Loading...</p>
+    <div id="googleMap"></div>
+  </div>
+</div>
